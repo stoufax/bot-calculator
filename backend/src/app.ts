@@ -1,6 +1,7 @@
 import express from "express";
 import * as http from "http";
 import { Server } from "socket.io";
+import "./database/mongoose";
 
 const port = process.env.PORT || 8000;
 
